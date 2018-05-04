@@ -21,7 +21,6 @@ class ItemManager {
     }
     
     func item(at index: Int) -> ToDoItem {
-        return ToDoItem(title: "")
         return toDoItems[index]
     }
     

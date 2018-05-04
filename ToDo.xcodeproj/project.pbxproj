@@ -19,6 +19,9 @@
 		AF46390620533D4A006C74BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF46390420533D4A006C74BC /* Main.storyboard */; };
 		AF46390820533D4A006C74BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF46390720533D4A006C74BC /* Assets.xcassets */; };
 		AF46390B20533D4A006C74BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF46390920533D4A006C74BC /* LaunchScreen.storyboard */; };
+		AF4E684B209BE87A00CF167B /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E684A209BE87A00CF167B /* ItemListDataProvider.swift */; };
+		AF4E684D209BEB4900CF167B /* ItemListDataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E684C209BEB4900CF167B /* ItemListDataProviderTests.swift */; };
+		AF4E684F209BF1B600CF167B /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E684E209BF1B600CF167B /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		AF46390C20533D4A006C74BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF46391120533D4B006C74BC /* ToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF46391720533D4B006C74BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4E684A209BE87A00CF167B /* ItemListDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListDataProvider.swift; sourceTree = "<group>"; };
+		AF4E684C209BEB4900CF167B /* ItemListDataProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListDataProviderTests.swift; sourceTree = "<group>"; };
+		AF4E684E209BF1B600CF167B /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,8 @@
 				AF46390C20533D4A006C74BC /* Info.plist */,
 				AF3474EE209A97D500E36A0D /* Model */,
 				AF3474F2209A98FB00E36A0D /* ItemListViewController.swift */,
+				AF4E684A209BE87A00CF167B /* ItemListDataProvider.swift */,
+				AF4E684E209BF1B600CF167B /* ItemCell.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 				AF46391720533D4B006C74BC /* Info.plist */,
 				AF3474EF209A97DC00E36A0D /* Model */,
 				AF3474F0209A982200E36A0D /* ItemListViewControllerTests.swift */,
+				AF4E684C209BEB4900CF167B /* ItemListDataProviderTests.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -234,8 +243,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF3474EB209A967000E36A0D /* ItemManager.swift in Sources */,
+				AF4E684B209BE87A00CF167B /* ItemListDataProvider.swift in Sources */,
 				AF46390120533D4A006C74BC /* AppDelegate.swift in Sources */,
 				AF41F78A20882A0E00088607 /* Location.swift in Sources */,
+				AF4E684F209BF1B600CF167B /* ItemCell.swift in Sources */,
 				AF41F788208825BD00088607 /* ToDoItem.swift in Sources */,
 				AF3474F3209A98FB00E36A0D /* ItemListViewController.swift in Sources */,
 			);
@@ -245,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4E684D209BEB4900CF167B /* ItemListDataProviderTests.swift in Sources */,
 				AF3474ED209A968000E36A0D /* ItemManagerTests.swift in Sources */,
 				AF41F78C20882B3000088607 /* LocationTests.swift in Sources */,
 				AF41F786208824C700088607 /* ToDoItemTests.swift in Sources */,
