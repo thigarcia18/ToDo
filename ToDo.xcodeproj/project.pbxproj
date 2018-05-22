@@ -22,6 +22,7 @@
 		AF4E684B209BE87A00CF167B /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E684A209BE87A00CF167B /* ItemListDataProvider.swift */; };
 		AF4E684D209BEB4900CF167B /* ItemListDataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E684C209BEB4900CF167B /* ItemListDataProviderTests.swift */; };
 		AF4E684F209BF1B600CF167B /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E684E209BF1B600CF167B /* ItemCell.swift */; };
+		AF93560020B3A0B30066DB48 /* ItemCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9355FF20B3A0B30066DB48 /* ItemCellTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		AF4E684A209BE87A00CF167B /* ItemListDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListDataProvider.swift; sourceTree = "<group>"; };
 		AF4E684C209BEB4900CF167B /* ItemListDataProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListDataProviderTests.swift; sourceTree = "<group>"; };
 		AF4E684E209BF1B600CF167B /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		AF9355FF20B3A0B30066DB48 /* ItemCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCellTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				AF3474EF209A97DC00E36A0D /* Model */,
 				AF3474F0209A982200E36A0D /* ItemListViewControllerTests.swift */,
 				AF4E684C209BEB4900CF167B /* ItemListDataProviderTests.swift */,
+				AF9355FF20B3A0B30066DB48 /* ItemCellTests.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF93560020B3A0B30066DB48 /* ItemCellTests.swift in Sources */,
 				AF4E684D209BEB4900CF167B /* ItemListDataProviderTests.swift in Sources */,
 				AF3474ED209A968000E36A0D /* ItemManagerTests.swift in Sources */,
 				AF41F78C20882B3000088607 /* LocationTests.swift in Sources */,

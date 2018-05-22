@@ -17,8 +17,6 @@ struct Location: Equatable {
         self.name = name
         self.coordinate = coordinate
     }
-    
-    
 }
 
 func ==(lhs: Location, rhs: Location) -> Bool {
